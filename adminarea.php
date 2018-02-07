@@ -11,7 +11,7 @@
         echo 'Votre login est '.$_SESSION['email'].' et votre mot de passe est '.$_SESSION['pass'].'.';
         echo '<br />';
 
-        echo '<a href="admin/logout.php">Déconnection</a>';
+        echo '<a href="adminLogout.php">Déconnection</a>';
     } else {
         header('location: admin.php');
     }

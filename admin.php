@@ -22,7 +22,7 @@
     <div class="row">
         <div class="col-sm">
             <?php
-            include("config.php");
+            include("./utils/config.php");
 
             if (isset($_POST['email'])) {
                 $req = $bdd->prepare('SELECT ID, password FROM membres WHERE email = :email');
@@ -40,7 +40,6 @@
 
                         $_SESSION['email'] = $_POST['email'];
                         $_SESSION['pass'] = $_POST['pass'];
-                        echo "<div class=\"alert alert-success\" role=\"alert\"> Connexion réussie ...</div>";
                         header('location: adminarea.php');
                     } else {
                         echo "<div class=\"alert alert-danger\" role=\"alert\"> Cette identifiant ou ce mot de passe est incorrect</div>";
