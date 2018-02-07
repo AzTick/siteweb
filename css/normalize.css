@@ -2,10 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 
 html, body {
-    margin: 0px;
-    padding: 0px;
+    position: relative;
+    height: 100%;
+    padding: 0;
+    margin: 0;
     background-color: #ecf0f1;
     font-family: 'Open Sans';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 .inner {

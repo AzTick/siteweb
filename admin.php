@@ -59,18 +59,13 @@
                    autofocus>
             <label for="inputPassword" class="sr-only">Mot de passe</label>
             <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="pass" required>
-            <div class="checkbox mb-3">
-                <label>
-                    <input type="checkbox" value="remember-me"> Se souvenir de moi
-                </label>
-            </div>
+
             <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
             <p class="mt-5 mb-3 text-muted">&copy; 2018-2019</p>
         </form>
     </div>
 
 </div>
-
 </body>
 </html>
 

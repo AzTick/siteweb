@@ -1,11 +1,33 @@
-.footer-basic-centered{
-    background-color: #292c2f;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
+.menufoot {
     width: 100%;
-    text-align: center;
-    font: normal 18px sans-serif;
+    margin-top: 50px;
+    height: 66px;
+    bottom: 0px;
+    position: absolute;
+    background-color: #e74c3c;
+    line-height: 66px;
+}
 
-    padding: 45px;
-    margin-top: 80px;
+.menufoot p {
+
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.m-link-footer {
+    text-decoration: none;
+    color: #bdc3c7;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0 2px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+
+.m-link-footer:hover {
+    padding-bottom: 3px;
+    border-color: #bdc3c7;
 }
